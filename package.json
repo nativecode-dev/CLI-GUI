@@ -1,15 +1,13 @@
 {
-  "name": "cli-gui",
-  "version": "2.5.9",
+  "name": "@nativecode/cli-gui",
+  "version": "0.0.0",
   "description": "An easy way to have a graphical interface through command line",
-  "main": "cligui.js",
-  "scripts": {
-    "test": "node index.js"
-  },
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AJS-development/CLI-GUI/tree/master"
+    "url": "https://github.com/nativecode-dev/CLI-GUI/tree/master"
   },
+  "author": "andrews54757",
   "keywords": [
     "graphical",
     "interface",
@@ -17,6 +15,18 @@
     "line",
     "text editor"
   ],
-  "author": "andrews54757",
-  "license": "Apache-2.0"
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "cli-tasks build",
+    "test": "node index.js"
+  },
+  "devDependencies": {
+    "@nofrills/tasks": "^9.0.2",
+    "@types/node": "^12.11.7",
+    "json-sort-cli": "^1.14.5",
+    "prettier": "^1.18.2",
+    "tslint": "^5.20.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.6.4"
+  }
 }
